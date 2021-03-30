@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0-bugfix",
+    "description": "Nacos: Dynamic Naming and Configuration Service",
+    "homepage": "https://nacos.io/",
+    "license": "Apache-2.0",
+    "url": "https://github.com/alibaba/nacos/releases/download/2.0.0-bugfix/nacos-server-2.0.0.zip",
+    "hash": "95d83f63ea5a8c067869a96316bbe78fc0b1dd46587e6e2d87dcda02ad6e2dbf",
+    "extract_dir": "nacos",
+    "bin": [
+        [
+         "bin\\startup.cmd",
+         "nacos-startup"   
+        ]
+    ]
+}
