@@ -1,0 +1,16 @@
+{
+    "version": "2.0.0.1700",
+    "homepage": "https://dm.weishi.360.cn/",
+    "url": "https://dl.360safe.com/drvmgr/4001643__360DrvMgrInstaller_beta.exe#/dl.7z",
+    "hash": "902d9267aef4a5d9b413caa81588fe304b89b22388e4480586f18202eb85e1cc",
+    "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
+    "bin": [
+        "360DrvMgr.exe"
+    ],
+    "shortcuts": [
+        [
+            "360DrvMgr.exe",
+            "360驱动大师"
+        ]
+    ]
+}
