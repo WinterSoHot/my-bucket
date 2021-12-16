@@ -8,12 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.1/Clash.for.Windows.Setup.0.19.1.exe",
-            "hash": "b6db5767a42ffa2d8805f88a3c1bf820d58c89afa6c7a6d4d8a453c5eb7f0c5b",
-            "pre_install": [
-                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
-                "Remove-Item \"$dir\\`$*\" -Recurse"
-            ]
+            "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/0.19.1/Clash.for.Windows-0.19.1-win.7z",
+            "hash": "82010b1754102e9eeaa66e5f2a8773caf0cde8140d8346ca03a045c77325f2f4"
         }
     },
     "shortcuts": [
@@ -26,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows.Setup.$version.exe"
+                "url": "https://github.com/Fndroid/clash_for_windows_pkg/releases/download/$version/Clash.for.Windows-$version-win.7z"
             }
         }
     }
