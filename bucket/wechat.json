@@ -1,8 +1,12 @@
 {
     "version": "3.4.5",
     "homepage": "https://pc.weixin.qq.com/",
-    "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z",
-    "hash": "",
+    "architecture": {
+        "64bit": {
+            "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl-3.4.5.7z",
+            "hash": "006206b1714a5d32432d346d676ac007961dfa138047de4491e039c20084328c"
+        }
+    },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
     "bin": "WeChat.exe",
     "shortcuts": [
@@ -18,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl.7z"
+                "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl-$version.7z"
             }
         }
     }
