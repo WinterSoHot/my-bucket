@@ -11,7 +11,7 @@
     },
     "bin": [
         [
-            "bin\\startup.cmd",
+            "nacos\\bin\\startup.cmd",
             "nacos-startup"
         ]
     ],
