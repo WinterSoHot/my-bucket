@@ -1,0 +1,20 @@
+{
+    "version": "3.3.8",
+    "description": "IM，QQ办公简洁版，是一款专注于团队办公协作的跨平台沟通工具。登录后，你的QQ好友都在，提供云文件、在线文档、邮件、日程、收藏等好用的办公功能，界面简洁 清晰，QQ好友和消息无缝同步。",
+    "homepage": "https://tim.qq.com/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://tim.qq.com/"
+    },
+    "url": "https://dldir1.qq.com/qqfile/qq/PCTIM/TIM3.3.8/TIM3.3.8.22043.exe",
+    "hash": "435b11b9a7be94db7a2496039f01d79b9b9c895968e6ebc203340a3e3d2d8e5d",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\$fname\" -ExtractDir 'Files' -Removal"
+    ],
+    "shortcuts": [
+        [
+            "Bin\\TIM.exe",
+            "TIM"
+        ]
+    ]
+}
