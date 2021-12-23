@@ -1,0 +1,31 @@
+{
+    "version": "3.2.1445.127",
+    "description": "追求极致效率，释放你的时间",
+    "homepage": "https://guanjia.qq.com/product/zmzl/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://guanjia.qq.com/product/zmzl/"
+    },
+    "url": "https://webcdn.m.qq.com/DeskGo/DeskGo_3_2_1445_127_lite.exe",
+    "hash": "adab62910108350d4f1dd8721be71ba167c52d0d7149f8201cd75724c7bebf8c",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\*\" -Switches '-t#'",
+        "Remove-Item \"$dir\\*\" -Exclude '4.7z' -Recurse",
+        "Expand-7zipArchive \"$dir\\4.7z\" -ExtractDir 'Install_BinFinal' -Removal"
+    ],
+    "bin": "DesktopMgr.exe",
+    "shortcuts": [
+        [
+            "DesktopMgr.exe",
+            "腾讯桌面管理"
+        ]
+    ],
+    "checkver": {
+        "url": "https://guanjia.qq.com/product/zmzl/",
+        "regex": "DeskGo_(?<first>\\d+)_(?<second>\\d+)_(?<third>\\d+)_(?<forth>\\d+)_lite.exe",
+        "replace": "${1}.${2}.${3}.${4}"
+    },
+    "autoupdate": {
+        "url": "https://webcdn.m.qq.com/DeskGo/DeskGo_$matchFirst_$matchSecond_$matchThird_$matchForth_lite.exe"
+    }
+}
