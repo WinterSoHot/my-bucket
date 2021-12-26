@@ -1,5 +1,5 @@
 {
-    "version": "8798.17.12012",
+    "version": "11.6.0.8798",
     "description": "轻巧简洁 高效转换 自由编辑",
     "homepage": "https://wpspdf.cn/",
     "license": {
@@ -23,9 +23,9 @@
     ],
     "checkver": {
         "url": "https://wpspdf.cn/",
-        "regex": "wpspdf.([\\d.]+).exe"
+        "regex": "download/wpspdf.(?<file>[\\d.]+).exe[\\s\\S]+<p class=\"verson_txt\"> (?<version>[\\d.]+)/(?<time>[\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://pacakge.cache.wpscdn.cn/wps/download/wpspdf.$version.exe#dl.7z"
+        "url": "https://pacakge.cache.wpscdn.cn/wps/download/wpspdf.$matchFile.exe#dl.7z"
     }
 }
