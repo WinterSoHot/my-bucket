@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "十万阿里人都在用的笔记与文档知识库",
     "homepage": "https://www.yuque.com/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://app.nlark.com/yuque-desktop/Yuque-1.0.1.exe#/dl.7z",
-            "hash": "69d4cc446e019f731326f9a3459fcd11229faa8bff65d2840bdc284875689137",
+            "url": "https://app.nlark.com/yuque-desktop/Yuque-1.0.3.exe#/dl.7z",
+            "hash": "4ef84c02a1248fb6dc7ac3e960d6f7f809869cbfe2bb94242610bc29dc96700b",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
