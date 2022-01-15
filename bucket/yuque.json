@@ -21,5 +21,16 @@
             "语雀.exe",
             "语雀"
         ]
-    ]
+    ],
+    "checkver": {
+        "url": "https://www.yuque.com/yuque/yuque-desktop",
+        "regex": "title%3A%20([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://app.nlark.com/yuque-desktop/Yuque-$version.exe#/dl.7z"
+            }
+        }
+    }
 }
