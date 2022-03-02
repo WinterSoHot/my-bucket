@@ -1,0 +1,29 @@
+{
+    "version": "1.4.10",
+    "description": "A modern ebook manager and reader with sync and backup capacities for Windows, macOS, Linux and Web",
+    "homepage": "https://koodo.960960.xyz",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/troyeguo/koodo-reader/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/troyeguo/koodo-reader/releases/download/v1.4.1/Koodo-Reader-1.4.1-x64-Win.zip",
+            "hash": "a49243b01cc079ab7c57bcdb0383070972cd42d0a89e23e682055fe96f65963a"
+        }
+    },
+    "shortcuts": [
+        [
+            "Koodo Reader.exe",
+            "Koodo Reader"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/troyeguo/koodo-reader/releases/download/v$version/Koodo-Reader-$version-x64-Win.zip"
+            }
+        }
+    }
+}
