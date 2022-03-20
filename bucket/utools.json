@@ -1,0 +1,36 @@
+{
+    "version": "2.5.2",
+    "description": "新一代效率工具平台-自由组合丰富插件，打造随手可取的终极神器",
+    "homepage": "https://u.tools/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://u.tools/agreement.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://res.u-tools.cn/version2/uTools-2.5.2.exe#/dl.7z",
+            "hash": "84b58199ef8378711a26d3fd5509158dd3604d20542386b2fb4d442098f4b0d3",
+            "pre_install": [
+                "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+                "Remove-Item \"$dir\\`$*\" -Recurse"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "uTools.exe",
+            "uTools"
+        ]
+    ],
+    "checkver": {
+        "url": "https://u.tools/",
+        "regex": "package: 'uTools-([\\d.]+).exe'"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://res.u-tools.cn/version2/uTools-$version.exe#/dl.7z"
+            }
+        }
+    }
+}
