@@ -1,10 +1,10 @@
 {
-    "version": "1.0.5.0",
+    "version": "1.0.6.0",
     "description": "A Swiss Army knife for developers.",
     "homepage": "https://github.com/veler/DevToys",
     "license": "MIT",
-    "url": "https://github.com/veler/DevToys/releases/download/v1.0.5.0/64360VelerSoftware.DevToys_1.0.5.0_neutral___j80j2txgjg9dj.Msixbundle#/dl.7z",
-    "hash": "0602a5733691f0239373fc75690f15553673271f94eb8c58148bc3b5c87856a9",
+    "url": "https://github.com/veler/DevToys/releases/download/v1.0.6.0/64360VelerSoftware.DevToys_1.0.6.0_neutral___j80j2txgjg9dj.Msixbundle#/dl.7z",
+    "hash": "ecc62711e24b6c527b71e738e1f94dd41ca2894b33057f0a95b72bbeb74dd41f",
     "architecture": {
         "64bit": {
             "pre_install": "Get-ChildItem \"$dir\" -Exclude '*x64.msix' | Remove-Item -Force -Recurse"
