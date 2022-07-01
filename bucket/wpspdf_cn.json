@@ -1,13 +1,13 @@
 {
-    "version": "11.6.0.8798",
+    "version": "11.6.0.8806",
     "description": "轻巧简洁 高效转换 自由编辑",
     "homepage": "https://wpspdf.cn/",
     "license": {
         "identifier": "Freeware",
         "url": "https://wpspdf.cn/"
     },
-    "url": "https://pacakge.cache.wpscdn.cn/wps/download/wpspdf.8798.17.12012.exe#dl.7z",
-    "hash": "f12ad97bc282bf7ef17f7ce1287a36f5794ac094c246c7fa8f857b652c89654e",
+    "url": "https://pacakge.cache.wpscdn.cn/wps/download/wpspdf.8806.17.12012.exe#dl.7z",
+    "hash": "a70f13e0ef516ea0ea5ceb84d0516fb2417452f9589901001b61c32120d82a9b",
     "pre_install": [
         "Remove-Item \"$dir\\*\" -Exclude '$EXEFILE' -Recurse",
         "Expand-7zipArchive \"$dir\\*\" -Switches '-t#'",
