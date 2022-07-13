@@ -1,12 +1,12 @@
 {
-    "version": "2.8.6",
+    "version": "2.8.5",
     "description": "zy-player",
     "homepage": "https://github.com/cuiocean/ZY-Player",
     "license": "MIT License",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cuiocean/ZY-Player/releases/download/v2.8.6/ZY-Player-Setup-2.8.6.exe#/dl.7z",
-            "hash": "bf4ff55a4b8711de00df7351055b7803a596e1261cd6ed6354a8cf3c3eaab6c4",
+            "url": "https://github.com/cuiocean/ZY-Player/releases/download/v2.8.5/ZY-Player-Setup-2.8.5.exe#/dl.7z",
+            "hash": "79b0a7a766d1b0e26a3d4c2961d51f92bbd269dfa3fed8baaa306c607114959b",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
