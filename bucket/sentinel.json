@@ -1,10 +1,10 @@
 {
-    "version": "1.8.4",
+    "version": "1.8.5",
     "description": "Sentinel: The Sentinel of Your Microservices",
     "homepage": "https://sentinelguard.io/",
     "license": "Apache-2.0",
-    "url": "https://github.com/alibaba/Sentinel/releases/download/1.8.4/sentinel-dashboard-1.8.4.jar#/sentinel-dashboard.jar",
-    "hash": "d394f905b9c848b78f1a23143de2e0e0044eedebbc904847ab5e22aef58837ea",
+    "url": "https://github.com/alibaba/Sentinel/releases/download/1.8.5/sentinel-dashboard-1.8.5.jar#/sentinel-dashboard.jar",
+    "hash": "23bd7de06a4268c6631e1c35679f05f7463ae17be282d992549194fa757267c9",
     "bin": "sentinel-dashboard.jar",
     "checkver": {
         "github": "https://github.com/alibaba/Sentinel",
