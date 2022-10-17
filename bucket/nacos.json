@@ -1,12 +1,12 @@
 {
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Nacos: Dynamic Naming and Configuration Service",
     "homepage": "https://github.com/alibaba/nacos",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/alibaba/nacos/releases/download/2.1.1/nacos-server-2.1.1.zip",
-            "hash": "6055dbabc56f52f7686adab04bbf10f4104eaeb8031fa6171980de9f31c92c93"
+            "url": "https://github.com/alibaba/nacos/releases/download/2.1.2/nacos-server-2.1.2.zip",
+            "hash": "ca45b80e7b3f454a14755f5c836a5c0af18d8a9475069c57a57d34a890e4fb22"
         }
     },
     "bin": [
