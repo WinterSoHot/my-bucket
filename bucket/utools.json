@@ -1,5 +1,5 @@
 {
-    "version": "4.3.2",
+    "version": "4.4.0",
     "description": "新一代效率工具平台-自由组合丰富插件，打造随手可取的终极神器",
     "homepage": "https://u.tools/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://res.u-tools.cn/version2/uTools-4.3.2.exe#/dl.7z",
-            "hash": "127403d254be809d3bd43ff44cc789b05fdd22927761b3563dee5341960a1f5a",
+            "url": "https://res.u-tools.cn/version2/uTools-4.4.0.exe#/dl.7z",
+            "hash": "8aa4bd40a79540ef774880823f725cc7ba2e550b9488c57f73e2043a2af04e59",
             "pre_install": [
                 "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
                 "Remove-Item \"$dir\\`$*\" -Recurse"
