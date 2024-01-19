@@ -1,10 +1,10 @@
 {
-    "version": "3.9.8",
+    "version": "3.9.9",
     "homepage": "https://pc.weixin.qq.com/",
     "architecture": {
         "64bit": {
-            "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl-3.9.8.7z",
-            "hash": "749753d77418666f4f76a107fbf38cfbc8f7df9d19ff0e5218b03a02a6122583"
+            "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe#/dl-3.9.9.7z",
+            "hash": "b89e98d127aadfd1682bd1bda83031f40c35333d4e912f20febdebbe8e07d5bb"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\" -Recurse",
